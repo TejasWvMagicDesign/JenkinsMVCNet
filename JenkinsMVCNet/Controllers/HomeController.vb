@@ -6,13 +6,13 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "Your application description page."
+        ViewData("Message") = "Jenkins CI/CD."
 
         Return View()
     End Function
 
     Function Contact() As ActionResult
-        ViewData("Message") = "Your contact page."
+        ViewData("Message") = "Jenkins CI/CD contact page."
 
         Return View()
     End Function
