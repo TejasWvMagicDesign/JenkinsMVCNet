@@ -9,6 +9,7 @@
 
         ViewData("Message") = "Jenkins CI/CD."
         Return View()
+
     End Function
 
     Function Contact() As ActionResult
