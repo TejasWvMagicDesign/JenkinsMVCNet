@@ -7,7 +7,6 @@
 
     Function About() As ActionResult
         ViewData("Message") = "Jenkins CI/CD."
-
         Return View()
     End Function
 
